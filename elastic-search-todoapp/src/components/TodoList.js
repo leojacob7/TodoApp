@@ -60,7 +60,10 @@ function TodoList() {
 	};
 
 	const renderCreateTodo = () => (
-		<form onSubmit={handleSubmit} style={{ display: 'flex', width: '50%' }}>
+		<form
+			onSubmit={handleSubmit}
+			style={{ display: 'flex', width: '50%', marginTop: '2rem' }}
+		>
 			<Input
 				placeholder="Create a Todo"
 				inputProps={{
