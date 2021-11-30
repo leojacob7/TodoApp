@@ -24,7 +24,8 @@
     "start": "concurrently \"react-scripts start\" \"cd ../server && npm run devStart \"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "installPackages": "npm install && cd ../server && npm install"
   },
   "eslintConfig": {
     "extends": ["react-app", "react-app/jest"]
